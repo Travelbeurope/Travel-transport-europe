@@ -1,18 +1,32 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+<!-- Contact -->
+<section id="contact" class="py-12 bg-white">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-semibold mb-8 text-center">Contactează-ne</h2>
+    <div class="max-w-xl mx-auto text-center mb-6">
+      <p class="text-lg font-medium">Telefon: 
+        <a href="tel:+330773220913" class="text-blue-700 hover:underline">
+          +33 07 73 22 09 13
+        </a>
+      </p>
+    </div>
+    <div class="max-w-xl mx-auto">
+      <form class="bg-gray-50 p-6 rounded-lg shadow space-y-4">
+        <input type="text" placeholder="Nume" class="w-full p-3 border rounded" />
+        <input type="email" placeholder="Email" class="w-full p-3 border rounded" />
+        <textarea placeholder="Mesajul tău" class="w-full p-3 border rounded h-32"></textarea>
+        <button class="bg-blue-800 text-white px-6 py-2 rounded hover:bg-blue-700">Trimite</button>
+      </form>
+    </div>
+  </div>
+</section>
 
-# Other files and folders
-.settings/
-
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+<!-- Footer -->
+<footer class="bg-blue-800 text-white text-center py-6">
+  <p>&copy; 2025 Travel Transport Europe. Toate drepturile rezervate.</p>
+  <p class="mt-2">
+    Tel: 
+    <a href="tel:+330773220913" class="underline hover:text-yellow-400">
+      +33 07 73 22 09 13
+    </a>
+  </p>
+</footer>
